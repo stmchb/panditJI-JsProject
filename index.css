@@ -1,0 +1,643 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 1920px;
+  height: 107px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-list-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  height: 22px;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+.logo-image {
+  width: 230px;
+  height: 73px;
+  margin-top: 17px;
+}
+.nav-list-container ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  gap: 45px;
+  padding: 0px 4px 0px 4px;
+  left: 670px;
+}
+
+.nav-list-container ul li {
+  height: 22px;
+  width: 108px;
+  font-weight: 500;
+}
+
+.call-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9983f;
+}
+
+.call-us-image {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.call-us-detail {
+  width: 216px;
+  padding: 23px;
+  color: #ffffff;
+}
+
+.call-us-text {
+  width: 165px;
+  gap: 10px;
+  height: 20px;
+  padding-inline: 10px;
+}
+
+.call-us-number {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+}
+
+.main-image {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  height: 700px;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.text-container {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.text-container .kaal-sarp-puja {
+  font-weight: 400;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.text-container h3 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.text-container .book-today {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.81);
+}
+
+.text-container .img-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 18px;
+  color: white;
+}
+
+.img-btn {
+  width: 242px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 120px;
+  border: none;
+  position: fixed;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+  transform-origin: left;
+  text-align: center;
+}
+
+.img-btn:hover {
+  background-color: rgba(233, 152, 63, 1);
+  transform: scaleX(1.03);
+  color: #ffffff !important;
+}
+
+.img-btn:hover * {
+  color: white !important;
+}
+
+.img-btn .phone-icon {
+  height: 24px;
+  width: 14px;
+  top: 9px;
+  position: absolute;
+  left: 18.41px;
+  text-align: center;
+}
+
+.img-btn .phone-icon:hover {
+  color: white;
+}
+
+.img-btn .img-number {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e9983f;
+}
+
+.img-btn .img-arrow {
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  padding: 1.5px 5.25px 1.5px 5.25px;
+  font-size: 33px;
+  padding-bottom: 18px;
+  color: rgba(233, 152, 63, 1);
+  position: absolute;
+  right: 10px;
+}
+
+.panditji-and-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.line {
+  width: 4px;
+  height: 108px;
+  position: absolute;
+  background-color: #e9983f;
+  margin-right: -162px;
+  margin-top: 38px;
+}
+
+.panditji-about {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: inherit;
+  margin-bottom: 15px;
+  letter-spacing: 0.19em;
+  color: #1808075e;
+}
+
+.panditji-description {
+  width: 555px;
+  font-weight: 400;
+  margin-top: 17px;
+  margin-left: -20px;
+}
+
+.panditji-place,
+.panditji-authorized {
+  font-size: 32px;
+  font-weight: 500;
+}
+.panditji-name {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.panditji-call-btn {
+  width: 242px;
+  height: 48px;
+  margin-top: 30px;
+  background-color: rgba(233, 152, 63, 1);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+  padding-inline: 20px;
+}
+
+.panditji-call-btn .img-arrow {
+  color: white;
+  font-size: 33px;
+  padding: 1.5px 5.25px 1.5px 5.25px;
+  position: unset;
+}
+
+.panditji-call-btn .img-number {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-inline: 15px;
+}
+
+.panditji-and-details-puja {
+  background-color: #f2ebe387;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 120px;
+}
+
+.panditji-puja-at {
+  margin-left: inherit;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.panditji-puja {
+  margin-left: inherit;
+  font-size: 32px;
+  font-weight: 700;
+}
+.panditji-puja-description {
+  font-size: 16px;
+  width: 555px;
+  margin-top: 15px;
+  font-weight: 400;
+  margin-left: inherit;
+}
+
+.panditji-call-btn {
+  margin-left: inherit;
+}
+
+.price-and-result {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: inherit;
+}
+.price-and-result > div {
+  display: flex;
+  align-items: center;
+}
+
+.price-and-result img {
+  margin-right: 10px;
+}
+
+.price-and-result,
+.result {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  display: inline;
+  padding-inline-end: 25px;
+}
+
+.btn-arrow {
+  font-size: 24px;
+}
+
+.panditji-call-btn:hover {
+  transform: scaleX(1.03);
+  transform-origin: left;
+  filter: brightness(0.7);
+  color: #ffffff;
+}
+
+.other-puja-container {
+  margin-top: 100px;
+}
+
+.other-puja {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.other-puja > span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.other-puja-card-container {
+  display: flex;
+  gap: 40px;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.puja-type {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.puja-type-hindi {
+  font-family: Hind;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.pitra-dosh-puja,
+.narayan-bali-puja,
+.maha-mritunjay-jap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 415px;
+  box-shadow: 0 0 0 2px white, 0.2em 0 2em 1em rgb(200 0 0 / 10%);
+}
+
+.other-puja-card-container > div > button {
+  width: 165px;
+  font-family: inherit;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e9983f;
+  color: #ffffff;
+  border: none;
+  padding-bottom: 5px;
+}
+
+.other-puja-card-container > div > button:hover {
+  transform: scaleX(1.03);
+  transform-origin: left;
+  filter: brightness(0.7);
+  color: #ffffff;
+}
+
+.other-puja-card-container > div > button > span {
+  padding-inline-start: 22px;
+  font-size: 24px;
+}
+
+.book-puja-banner {
+  position: relative;
+  width: 100%;
+  height: 305px;
+  text-align: center;
+}
+
+.book-puja-banner img {
+  filter: brightness(0.7);
+}
+
+.text-on-banner {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.book-puja-title {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.19em;
+  text-align: center;
+}
+.book-puja-banner {
+  margin-top: 100px;
+}
+
+.book-puja-banner .text-on-banner > p > span {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: center;
+}
+
+.book-puja-banner,
+.book-puja-place > p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: center;
+}
+
+.book-now-btn {
+  padding-bottom: 5px;
+  margin-top: 20px;
+  width: 180px;
+  height: 48px;
+  background-color: #ffffff;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e9983f;
+  transition: transform ease 1s;
+}
+
+.text-on-banner .book-now-btn > span {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-inline: 20px;
+}
+
+.book-now-btn:hover {
+  transform: scaleX(1.03);
+  transform-origin: left;
+  background-color: #e9983f;
+  color: white;
+}
+
+.contact-page-container {
+  width: 1920px;
+  height: 657px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  background: #f2ebe387;
+}
+
+.contact-info {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.contact {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  letter-spacing: 0.19em;
+  color: #1808075e;
+  margin-bottom: 10px;
+  margin-inline: -17px;
+}
+
+.connect-with {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.connect-with > span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.address {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 25px;
+  color: #180807;
+  margin-inline: -17px;
+}
+
+.contact-info > input {
+  font-family: inherit;
+  width: 555px;
+  height: 45px;
+  gap: 10px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  border: 1px solid #1808071c;
+}
+
+.contact-info > input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat;
+  line-height: 17.07px;
+  color: #6a6a6a;
+  padding-left: 10px;
+}
+
+.contact-info .city {
+  width: 262px !important;
+  height: 45px !important;
+  border: none;
+}
+
+.city-and-state {
+  display: flex;
+  gap: 30px;
+}
+
+.city-and-state > input::placeholder {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.state {
+  width: 262px !important;
+  height: 45px !important;
+  border: none;
+}
+
+.contact-info .state {
+  width: 262px;
+  height: 45px;
+}
+
+.contact-info .text-area {
+  height: 104px;
+}
+
+.contact-info > button {
+  width: 165px;
+  font-family: inherit;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e9983f;
+  color: #ffffff;
+  border: none;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.contact-info > button:hover {
+  transform: scaleX(1.03);
+  transform-origin: left;
+  filter: brightness(0.7);
+  color: #ffffff;
+}
+
+.ocontact-info > button > span {
+  padding-inline-start: 22px;
+  font-size: 24px;
+}
+
+.line2 {
+  width: 4px;
+  height: 71px;
+  position: absolute;
+  background-color: #e9983f;
+  margin-left: -18px;
+  margin-top: 34px;
+}
+
+footer {
+  display: flex;
+  background-color: #161616;
+  height: 419px;
+  width: 1920px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.mandir-status {
+  margin-bottom: 80px;
+}
+.free-consultation {
+  margin-bottom: 80px;
+}
+
+.footer-bottom {
+  border-top: 2px solid #ffffff26;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: right;
+}
